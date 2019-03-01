@@ -1,0 +1,18 @@
+{
+   "signInButton": {
+      "type": "css",
+      "value": "a[href*='login']"
+   },
+   "inputUserName": {
+      "type": "id",
+      "value": "username"
+   },
+   "inputPassword": {
+      "type": "id",
+      "value": "password"
+   },
+   "signIn": {
+      "type": "css",
+      "value": "#signin"
+   }
+}

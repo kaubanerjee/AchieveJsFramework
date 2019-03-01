@@ -1,0 +1,14 @@
+{
+   "searchInput":{
+      "type":"css",
+      "value":"input[type='text']"
+   },
+   "courseList":{
+     "type":"css",
+     "value":"div[class*='active']"
+  },
+  "searchButton":{
+     "type":"css",
+     "value":"button [type*='Search']"
+  }
+ }
