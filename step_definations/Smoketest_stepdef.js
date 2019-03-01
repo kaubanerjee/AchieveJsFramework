@@ -1,5 +1,5 @@
 const { Before, Given, When, Then } = require('cucumber')
-const action= require('../lib/pages/Action');
+const action= require('../lib/pages/Smoke_test');
 var webdriver = require('selenium-webdriver');
 var {setDefaultTimeout} = require('cucumber');
 

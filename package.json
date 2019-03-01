@@ -3,10 +3,11 @@
   "private": true,
   "scripts": {
     "test": "mocha test/use_case/logintest.js --timeout 200000 --reporter-options output=filename.html",
-    "cucumbertest": "node ./node_modules/.bin/cucumber-js /features/ -r /step_definations",
+    "cucumbertest": "node ./node_modules/cucumber/bin/cucumber-js ./features/ -r ./step_definations",
     "test-debug": "mocha --debug 'test/use_case/*.js' --timeout 20000"
   },
   "dependencies": {
+    "chai": "^4.2.0",
     "chromedriver": "^2.45.0",
     "cucumber": "^5.1.0",
     "mocha": "^5.2.0",
